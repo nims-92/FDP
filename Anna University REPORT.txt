@@ -1,0 +1,80 @@
+Anna University REPORT:
+
+Pagelink:https://iqac.annauniv.edu/Sustainability/
+Test Date : 12.06.2024
+Test Time :12.59 pm
+Result : Failed
+Description:
+
+ 2024-06-12 11:49:30.423 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------
+2024-06-12 11:49:30.427 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification
+2024-06-12 11:49:30.594 DEBUG testcase.                                - 1: navigateToUrl("https://www.google.com/search?q=Anna+University&oq=Anna+University&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDU3MTFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8")
+2024-06-12 11:49:31.345 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 918c4c11c059e4537b3c670830349928
+2024-06-12 11:49:31.359 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 125.0.0.0
+2024-06-12 11:49:31.359 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2024-06-12 11:49:31.360 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2024-06-12 11:49:31.364 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2024-06-12 11:49:32.881 DEBUG testcase.                                - 2: click(findTestObject("Page_Anna University - Google Search/h3_Anna University, Chennai"))
+2024-06-12 11:49:32.898 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Page_Anna University - Google Search/h3_Anna University, Chennai' does not exist
+2024-06-12 11:49:32.917 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+2024-06-12 11:49:33.191 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at WSVerification1718173170471.run(WSVerification1718173170471:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:180)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:174)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:157)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:149)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:131)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:150)
+	at com.kms.katalon.core.main.TestCaseMain$runWSVerificationScript$0.call(Unknown Source)
+	at TempTestCase1718173162499.run(TempTestCase1718173162499.groovy:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+2024-06-12 11:49:33.195 ERROR c.k.k.core.main.WSVerificationExecutor   - ? Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at WSVerification1718173170471.run(WSVerification1718173170471:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:180)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:174)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:157)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:149)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:131)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:150)
+	at com.kms.katalon.core.main.TestCaseMain$runWSVerificationScript$0.call(Unknown Source)
+	at TempTestCase1718173162499.run(TempTestCase1718173162499.groovy:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+2024-06-12 11:49:33.198 INFO  c.k.k.core.main.WSVerificationExecutor   - END Verification
